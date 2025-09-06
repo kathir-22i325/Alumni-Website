@@ -131,7 +131,6 @@ const EventForm = ({ eventForEdit, addOrEdit }) => {
     const formData = new FormData();
     Object.keys(formattedEvent).forEach((key) => {
       if (formattedEvent[key] !== null && formattedEvent[key] !== undefined) {
-        // console.log("📌 Adding to FormData: ${key} ->, formattedEvent[key]");
         formData.append(key, formattedEvent[key]);
       }
     });
