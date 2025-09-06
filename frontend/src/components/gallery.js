@@ -9,7 +9,7 @@ import { jwtDecode } from "jwt-decode";
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 
-const API_URL = "http://localhost:5000/api/gallery"; // Backend URL
+const API_URL = "http://localhost:5000/api/gallery";
 
 function Gallery() {
 
