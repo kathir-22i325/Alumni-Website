@@ -15,9 +15,9 @@ const Footer = () => {
         <Grid container spacing={2} justifyContent="space-between" alignItems="center">
           {/* PSG Tech logo and label */}
           <Grid item xs={12} md="auto" display="flex" alignItems="center">
-            <img src="/PSG logo.jpeg" alt="PSG Logo" style={{ width: 60, height: 60, marginRight: 10 }} />
+            <img src="/SIH.jpg" alt="SIH Logo" style={{ width: 60, height: 60, marginRight: 10 }} />
             <Typography variant="body1" fontWeight="bold">
-              PSG Tech Alumni Association
+              The Alumni Association
             </Typography>
           </Grid>
 
