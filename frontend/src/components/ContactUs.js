@@ -63,7 +63,7 @@ const ContactUs = () => {
       {/* Contact Info */}
       <Box>
         <Typography variant="h6" fontWeight="bold" gutterBottom>
-          CONTACT IT ALUMNI ASSOCIATION
+          Contact Team CodeMavericks
         </Typography>
 
         <Typography variant="body1" mt={1}>
