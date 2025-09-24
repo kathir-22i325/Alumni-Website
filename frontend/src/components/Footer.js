@@ -1,5 +1,5 @@
 import { Box, Typography, Link, Container, Grid } from "@mui/material";
-
+import SIH2 from "../images/SIH2.jpg";
 
 const Footer = () => {
   return (
@@ -13,11 +13,10 @@ const Footer = () => {
     >
       <Container maxWidth="lg">
         <Grid container spacing={2} justifyContent="space-between" alignItems="center">
-          {/* PSG Tech logo and label */}
           <Grid item xs={12} md="auto" display="flex" alignItems="center">
-            <img src="/PSG logo.jpeg" alt="PSG Logo" style={{ width: 60, height: 60, marginRight: 10 }} />
+            <img src={SIH2} alt="SIH Logo" style={{ width: 60, height: 60, marginRight: 10 }} />
             <Typography variant="body1" fontWeight="bold">
-              PSG Tech Alumni Association
+              Alumni Data Interface
             </Typography>
           </Grid>
 

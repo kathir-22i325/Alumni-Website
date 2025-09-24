@@ -78,7 +78,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <div
         style={{
-          backgroundImage: "url('collegepic.png')",
+          backgroundImage: "url('https://www.aluminati.net/wp-content/uploads/2023/03/How-to-Create-an-Alumni-Database.jpg')",
           height: "50vh",
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -99,7 +99,7 @@ const HomePage = () => {
         ></div>
         <div style={{ zIndex: 1 }}>
           <Typography variant="h3" fontWeight="bold">
-            Welcome to PSG Tech - IT Alumni Association
+            Welcome to CodeMaverick's Alumni Data Interface
           </Typography>
           <Typography variant="h6" mt={2}>
             Stay connected, give back, and grow together!
@@ -113,7 +113,7 @@ const HomePage = () => {
           About Us
         </Typography>
         <Typography variant="body1" maxWidth="md" mx="auto" mt={2}>
-          The PSG Tech - IT Alumni Association fosters lifelong connections between alumni, faculty, and students. Join us to participate in events, mentorship programs, and career support initiatives.
+            Team CodeMavericks from PSG Tech - IT & CSE is proud to participate in Smart India Hackathon (SIH), showcasing innovation and collaboration!
         </Typography>
       </Container>
 
